@@ -528,6 +528,46 @@ footer {
   text-decoration: underline;
 }
 
+.testimony_section.faq_section {
+  padding-top: 1em;
+}
+.faq_section .testimony_content {
+  text-align: left;
+}
+.header-pad {
+  margin-top: 0;
+}
+
+.header-pad.padded {
+  margin-top: 92px;
+}
+
+.faq-container {
+  border: solid 1px #e6e6e6;
+  padding: 0 42px 42px;
+  width: 80%;
+  background: white;
+  font-size: 1em;
+  font-family: var(--default);
+  text-align: left;
+}
+
+.faq-container h3 {
+  padding-top: 20px;
+}
+
+.faq-container p {
+  line-height: 1.7;
+  font-size: 300;
+}
+
+.faq-container ul {
+  list-style: disc;
+  padding: 0 15px;
+  margin: 0;
+  line-height: 1.5;
+}
+
 /* ===================================== */
 /* Media Queries */
 
