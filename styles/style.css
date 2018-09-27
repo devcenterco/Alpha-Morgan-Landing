@@ -86,6 +86,12 @@ header {
   object-fit: contain;
 }
 
+.mobile-nav-wrapper {
+  margin-top: 20px;
+  display: none;
+  background: #751d5d;
+}
+
 nav ul li {
   display: inline-block;
   padding: 26px 30px 0;
@@ -798,6 +804,10 @@ footer {
 
 /* Mobile devices */
 @media only screen and (max-width: 766px) {
+  .logo {
+    text-align: center;
+  }
+
   .Image-Logo {
     margin-left: 0;
     width: 140px;
@@ -805,6 +815,29 @@ footer {
 
   nav {
     display: none;
+  }
+
+  .mobile-nav-wrapper {
+    display: block;
+  }
+
+  nav#mobile {
+    display: block;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  nav#mobile ul {
+    display: flex;
+  }
+
+  nav#mobile ul li {
+    padding: 15px;
+    flex-grow: 1;
+  }
+
+  nav#mobile ul li a {
+    color: white;
   }
 
   .wrapper {
@@ -1001,5 +1034,9 @@ footer {
     place-items: center;
     margin-top: 1em;
     grid-gap: 8px;
+  }
+
+  .faq-container {
+    width: 100%;
   }
 }
